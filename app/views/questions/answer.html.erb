@@ -1,0 +1,23 @@
+<h1>This is your coach's answer</h1>
+
+<div>
+  <p>
+    <%= params[:question] %>
+  </p>
+  <p>
+    -- You
+  </p>
+</div>
+
+<div>
+  <p>
+    <%= @answer %>
+  </p>
+  <p>
+    -- Your Coach
+  </p>
+</div>
+
+<div>
+  <%= link_to 'Ask again!', ask_path %>
+</div>
